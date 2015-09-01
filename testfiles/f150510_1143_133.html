@@ -1,0 +1,856 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+<STYLE>
+<!--
+body {
+		font-family: Arial Unicode MS;
+		background-color:#E3E3E3;
+	}
+table 
+	{
+		width:100%;
+		border-width:2px; 
+		border-color:#AAAAAA; 
+		border-style:inset; 
+		padding:0px;
+		background-color:#AAAAAA;
+		margin-top:8px;
+	}
+th 
+	{
+		font-weight:bold;
+		font-size:12px;
+		margin:0;
+		padding:1px 3px 1px 2px;
+		white-space:nowrap;
+		text-align:center;
+		border-width:2px; 
+		border-color:#7777AA;
+		border-style:outset; 
+		vertical-align:top;
+		font-weight:bold;
+		background-color:#BBBBDD;
+	}
+td {		
+		vertical-align:top;
+		text-align:left;
+		font-weight:normal;
+		font-size:12px;
+		margin:0;
+		padding:1px 3px 1px 2px;
+		white-space:nowrap;
+		background-color:#CCCCDD;
+		border-width:2px; 
+		border-color:#9999AA; 
+		border-style:outset; 
+	}
+hr 
+	{
+		font-size:5px;
+		width:100%;
+		color:#00234D;
+		height:1px;
+	}
+h1 {
+	font-size:24px;
+	text-align:left;
+	}
+#cent {
+	font-weight:bold;
+	text-align:center;
+	}
+#mess	{
+	width:245px;
+	padding-left:2px;
+	}
+#val	{
+	min-width:63px;
+	max-width:63px;
+	width:63px;
+	padding-left:2px;
+	}
+#pitcherr{	
+	min-width:314px;
+	max-width:314px;
+	width:314px;
+	padding-left:2px;
+	}
+#errCode{
+	min-width:100px;
+	max-width:100px;
+	width:100px;
+	padding-left:2px;
+
+}
+#errMess{
+	min-width:421px;
+	max-width:421px;
+	width:421px;
+	padding-left:2px;
+
+}
+#errDel{
+	min-width:100px;
+	max-width:100px;
+	width:100px;
+	padding-left:2px;
+}
+#pitchCAN{
+	font-weight:normal;
+}
+-->
+</STYLE>
+</HEAD>
+<BODY>
+
+<h1> error storage 1.5MW</h1>
+<TABLE>
+<tr><th colspan=4>head</th></tr>
+<tr>
+<td style="width:245px;">GOLDWIND 1500 windturbine</td>
+<td style="width:245px;"> . </td>
+<td>.   </td><td>.   </td>
+<tr>
+<td id="mess">init_init_windturbine_nr</td><td id="val">65  </td>
+<td id="mess">init_init_windturbine_location</td><td id="val">ghcjwq  </td>
+</tr>
+<tr>
+<td>date:</td><td>2015-5-10 11:43</td>
+<td style="width:110px;">version</td> <td style="width:339px;">errorconverter version 2014-09-04 JRQ</td>
+</tr>
+<tr>
+<td id="mess">converter_type</td><td id="val">3  </td>
+<td id="mess">pitch_type</td><td id="val">1  </td>
+</tr>
+<tr>
+<td id="mess">cooling_type</td><td id="val">3  </td>
+<td id="mess">grid_measure_type</td><td id="val">0  </td>
+</tr>
+<tr>
+<td id="mess">program_version</td><td id="val">1500_FR_V141120  </td>
+<td id="mess">init_file_info</td><td id="val">LM37.3_V20130531  </td>
+</tr>
+<tr>
+<td id="mess">errdef_file_info</td><td id="val">111141210  </td>
+<td id="mess">evtdef_file_info</td><td id="val">2  </td>
+</tr>
+
+</table>
+
+<TABLE><tr><th colspan=6>time</th></tr><tr>
+<td id="mess">time_hour</td><td id="val">11  </td>
+<td id="mess">time_minutes</td><td id="val">43  </td>
+<td id="mess">time_second</td><td id="val">52  </td>
+</tr><tr>
+<td id="mess">time_year</td><td id="val">2015  </td>
+<td id="mess">time_month</td><td id="val">5  </td>
+<td id="mess">time_day</td><td id="val">10  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>main_loop</th></tr><tr>
+<td id="mess">main_loop_mode_number</td><td id="val">5  </td>
+<td id="mess">operation_data_power_production_time</td><td id="val">12701.72 h</td>
+<td id="mess">operation_data_energy_yield</td><td id="val">6535435 kWh</td>
+</tr><tr>
+<td id="mess">GlobalErr_Stop_Level</td><td id="val">3  </td>
+<td id="mess">GlobalErr_Yaw_Level</td><td id="val">0  </td>
+<td id="mess">GlobalErr_Start_Level</td><td id="val">1  </td>
+</tr><tr>
+<td id="mess">GlobalErr_Reset_Level</td><td id="val">1  </td>
+<td id="mess">GlobalErr_Deactive_Mode</td><td id="val">0  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">GlobalEvt_Stop_Level</td><td id="val">2  </td>
+<td id="mess">GlobalEvt_Start_Level</td><td id="val">0  </td>
+<td id="mess">GlobalEvt_Reset_Level</td><td id="val">0  </td>
+</tr><tr>
+<td id="mess">GlobalEvt_Yaw_Level</td><td id="val">0  </td>
+<td id="mess">GlobalEvt_Deactive_Mode</td><td id="val">0  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">Global_Stop_Level</td><td id="val">3  </td>
+<td id="mess">Global_Start_Level</td><td id="val">0  </td>
+<td id="mess">Global_Reset_Level</td><td id="val">0  </td>
+</tr><tr>
+<td id="mess">Global_Yaw_Level</td><td id="val">0  </td>
+<td id="mess">Global_Deactive_Mode</td><td id="val">0  </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>first fault code</th></tr><tr>
+<td id="mess">error_code_first_fault_1</td><td id="val">133  </td>
+<td id="mess">error_code_first_fault_2</td><td id="val">0  </td>
+<td id="mess">error_code_first_fault_3</td><td id="val">0  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>accelaration nacelle</th></tr><tr>
+<td id="mess">error_acceleration_nacelle_limit</td><td id="val">off  </td>
+<td id="mess">error_accel_nacelle_limit_offset</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+</tr><tr>
+<td id="mess">acceleration_nacelle_x</td><td id="val">0.004  </td>
+<td id="mess">acceleration_nacelle_y</td><td id="val">-0.029  </td>
+<td id="mess">acceleration_nacelle_momentary_offset_max</td><td id="val">0.010  </td>
+</tr><tr>
+<td id="mess">acceleration_nacelle_effective_value</td><td id="val">0.002  </td>
+<td id="mess">acceleration_nacelle_high_frequency</td><td id="val">0.001  </td>
+<td id="mess">acceleration_nacelle_high_frequency_x</td><td id="val">0.000  </td>
+</tr><tr>
+<td id="mess">acceleration_nacelle_high_frequency_y</td><td id="val">0.000  </td>
+<td id="mess">acceleration_nacelle_high_frequency_12HZ</td><td id="val">-0.001  </td>
+<td id="mess">acceleration_vb_statistics_number</td><td id="val">0.000  </td>
+</tr></table>
+
+
+<TABLE><tr><th colspan=6>autostart</th></tr><tr>
+<td id="mess">error_max_numbers_of_autostart_reached</td><td id="val">off  </td>
+<td id="mess">autostart_counter</td><td id="val">0  </td>
+<td id=mess>.</td><td id=val>.</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>cabinet monitoring</th></tr><tr>
+<td id="mess">error_control_cabinet_temp_high</td><td id="val">off  </td>
+<td id="mess">error_control_cabinet_temp_low</td><td id="val">off  </td>
+<td id="mess">error_topbox_cabinet_temp_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_topbox_cabinet_temp_low</td><td id="val">off  </td>
+<td id="mess">error_nacelle_temp_high</td><td id="val">off  </td>
+<td id="mess">error_nacelle_temp_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_ambient_temperature_low</td><td id="val">off  </td>
+<td id="mess">error_ambient_temperature_high</td><td id="val">off  </td>
+<td id="mess">error_LVD_cabinet_temp_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_10_minute_ambient_temp_high</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">error_LVD_cabinet_temp_low</td><td id="val">off  </td>
+<td id="mess">error_tower_base_air_input_temp_high</td><td id="val">off  </td>
+<td id="mess">error_tower_base_air_input_temp_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">control_cabinet_temperature</td><td id="val">22.50 C</td>
+<td id="mess">topbox_temperature</td><td id="val">5.20 C</td>
+<td id="mess">nacelle_temperature</td><td id="val">2.40 C</td>
+</tr><tr>
+<td id="mess">ambient_temperature</td><td id="val">2.10 C</td>
+<td id="mess">LVD_cabinet_temperature</td><td id="val">22.50 C</td>
+<td id="mess">tower_base_air_input_temperature</td><td id="val">23.60 C</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>init control</th></tr><tr>
+<td id="mess">error_init_file_ads_info</td><td id="val">off  </td>
+<td id="mess">err_init_unfinished</td><td id="val">off  </td>
+<td id="mess">error_init_file_line_ads_info</td><td id="val">0  </td>
+</tr><tr>
+<td id="mess">Main_init_OK</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">ReadErrDef_ok</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">ReadEvtDef_ok</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>fuses</th></tr><tr>
+<td id="mess">error_fuse_LVD_feedback</td><td id="val">off  </td>
+<td id="mess">error_fuse_nacelle_feedback</td><td id="val">off  </td>
+<td id="mess">error_fuse_converter_feedback</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_fuse_capacitors_feedback</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+
+<TABLE><tr><th colspan=6>generator</th></tr><tr>
+<td id="mess">error_generator_temperature_high</td><td id="val">off  </td>
+<td id="mess">error_generator_temperature_low</td><td id="val">off  </td>
+<td id="mess">error_generator_temperature_rise_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">generator_temperature_1</td><td id="val">29.50 C</td>
+<td id="mess">generator_temperature_2</td><td id="val">28.50 C</td>
+<td id="mess">generator_temperature_3</td><td id="val">29.00 C</td>
+</tr><tr>
+<td id="mess">generator_temperature_4</td><td id="val">24.60 C</td>
+<td id="mess">generator_temperature_5</td><td id="val">28.30 C</td>
+<td id="mess">generator_temperature_6</td><td id="val">30.10 C</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>generator speed</th></tr><tr>
+<td id="mess">error_generator_speed_standstill_mode</td><td id="val">off  </td>
+<td id="mess">error_generator_speed_critical_speed</td><td id="val">off  </td>
+<td id="mess">error_gen_speed_em_stop_speed</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_generator_speed_comparing_1</td><td id="val">off  </td>
+<td id="mess">error_generator_speed_comparing_2</td><td id="val">off  </td>
+<td id="mess">error_generator_speed_comparing_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_generator_speed_comparing_4</td><td id="val">off  </td>
+<td id="mess">error_generator_speed_service_mode</td><td id="val">off  </td>
+<td id="mess">error_generator_temperature_comp</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">generator_speed_momentary</td><td id="val">17.25 rpm</td>
+<td id="mess">overspeed_modul_gen_speed_signal_1</td><td id="val">17.21 rpm</td>
+<td id="mess">overspeed_modul_gen_speed_signal_2</td><td id="val">17.26 rpm</td>
+</tr><tr>
+<td id="mess">converter_in_speed</td><td id="val">0.00 rpm</td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>gh control</th></tr><tr>
+<td id="mess">error_gh_controller_enable</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+<td id=mess>.</td><td id=val>.</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>grid</th></tr><tr>
+<td id="mess">error_grid_voltage_max</td><td id="val">off  </td>
+<td id="mess">error_grid_voltage_min</td><td id="val">off  </td>
+<td id="mess">error_grid_voltage_unsymmetry</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">grid_U1</td><td id="val">357.19 V</td>
+<td id="mess">grid_U2</td><td id="val">356.46 V</td>
+<td id="mess">grid_U3</td><td id="val">355.97 V</td>
+</tr><tr>
+<td id="mess">error_grid_current_max</td><td id="val">off  </td>
+<td id="mess">error_grid_current_unsymmetry</td><td id="val">off  </td>
+<td id="mess">error_grid_voltage_super_max</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">grid_I1</td><td id="val">1165.47 A</td>
+<td id="mess">grid_I2</td><td id="val">1162.83 A</td>
+<td id="mess">grid_I3</td><td id="val">1165.47 A</td>
+</tr><tr>
+<td id="mess">error_grid_frequency_max</td><td id="val">off  </td>
+<td id="mess">error_grid_frequency_min</td><td id="val">off  </td>
+<td id="mess">grid_frequency</td><td id="val">49.98 Hz</td>
+</tr><tr>
+<td id="mess">error_grid_active_power_limit_max</td><td id="val">off  </td>
+<td id="mess">error_grid_active_power_limit_min</td><td id="val">off  </td>
+<td id="mess">error_grid_active_power_relation</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_grid_phase_active_power_comp</td><td id="val">off  </td>
+<td id="mess">error_grid_active_power_lost</td><td id="val">off  </td>
+<td id="mess">grid_active_power</td><td id="val">1243.49 kW</td>
+</tr><tr>
+<td id="mess">error_grid_reactive_power_limit_max</td><td id="val">off  </td>
+<td id="mess">error_grid_reactive_power_limit_min</td><td id="val">off  </td>
+<td id="mess">grid_reactive_power</td><td id="val">148.69 kvar</td>
+</tr><tr>
+<td id="mess">error_grid_pac3200_com</td><td id="val">off  </td>
+<td id="mess">error_grid_lvrt_time_ove</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>hydraulic</th></tr><tr>
+<td id="mess">error_hydraulic_working_time</td><td id="val">off  </td>
+<td id="mess">error_hydraulic_motor_feedback</td><td id="val">off  </td>
+<td id="mess">error_hydraulic_oil_level</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">profi_in_hydraulics_feedback</td><td id="val">off  </td>
+<td id="mess">profi_out_hydraulic_yaw_system_enable</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">profi_in_hydraulic_activate_hydraulic_motor</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">profi_out_hydraulic_lift_yaw_brake</td><td id="val">off  </td>
+<td id="mess">profi_in_hydraulic_oil_level_ok</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">error_hydraulic_pressure</td><td id="val">off  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>navigation light</th></tr><tr>
+<td id="mess">warning_navigation_light_warning</td><td id="val">off  </td>
+<td id="mess">warning_navigation_light_error</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>profibus</th></tr><tr>
+<td id="mess">error_profi_node_10_diag</td><td id="val">off  </td>
+<td id="mess">error_profi_node_11_diag</td><td id="val">off  </td>
+<td id="mess">error_profi_node_20_diag</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_profi_node_41_diag</td><td id="val">off  </td>
+<td id="mess">error_profi_node_42_diag</td><td id="val">off  </td>
+<td id="mess">error_profi_node_43_diag</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_profi_node_10_diag_info</td><td id="val">0  </td>
+<td id="mess">error_profi_node_11_diag_info</td><td id="val">0  </td>
+<td id="mess">error_profi_node_20_diag_info</td><td id="val">0  </td>
+</tr><tr>
+<td id="mess">error_profi_node_41_diag_info</td><td id="val">0  </td>
+<td id="mess">error_profi_node_42_diag_info</td><td id="val">0  </td>
+<td id="mess">error_profi_node_43_diag_info</td><td id="val">0  </td>
+</tr><tr>
+<td id="mess">error_profibus_node_10_supply</td><td id="val">off  </td>
+<td id="mess">error_profibus_node_11_supply</td><td id="val">off  </td>
+<td id="mess">error_profibus_node_20_supply</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_profi_node_10_fuse_defect</td><td id="val">off  </td>
+<td id="mess">error_profi_node_11_fuse_defect</td><td id="val">off  </td>
+<td id="mess">error_profi_node_20_fuse_defect</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_profibus_node_80_supply</td><td id="val">off  </td>
+<td id="mess">error_profi_node_80_diag</td><td id="val">off  </td>
+<td id="mess">error_profi_node_80_diag_info</td><td id="val">0  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>saftey system</th></tr><tr>
+<td id="mess">error_safety_sys_em_button_tower_base</td><td id="val">off  </td>
+<td id="mess">error_safety_sys_em_button_topbox</td><td id="val">off  </td>
+<td id="mess">error_safety_system_overspeed_modul</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_safety_sys_vibration_switch_nacelle</td><td id="val">off  </td>
+<td id="mess">error_safety_system_cable_twist</td><td id="val">off  </td>
+<td id="mess">error_safety_sys_safety_system_ok_from_pitch</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_safety_system_rotor_lock</td><td id="val">off  </td>
+<td id="mess">error_safety_system_plc_em_stop_demand</td><td id="val">off  </td>
+<td id="mess">error_safety_system_safety_system_ok</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_satety_WT_rotor_em_accident</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+
+<TABLE><tr><th colspan=6>stop control</th></tr><tr>
+<td id="mess">error_stop_sequence_1</td><td id="val">off  </td>
+<td id="mess">error_stop_sequence_2</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>smog</th></tr><tr>
+<td id="mess">error_nacelle_smog</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+<td id=mess>.</td><td id=val>.</td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>system</th></tr><tr>
+<td id="mess">error_system_cpu_usage_reached_limit_1</td><td id="val">off  </td>
+<td id="mess">error_system_cpu_usage_reached_limit_2</td><td id="val">off  </td>
+<td id="mess">error_system_cpu_ads</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">system_cpu_usage_in_percent</td><td id="val">15 %</td>
+<td id="mess">system_cpu_usage_err_id</td><td id="val">0  </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>transformer</th></tr><tr>
+<td id="mess">warning_transformer_temp_high</td><td id="val">off  </td>
+<td id="mess">error_transformer_temp_high</td><td id="val">off  </td>
+<td id="mess">warning_transformer</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">transform_temperature</td><td id="val">0.00 C</td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>ups</th></tr><tr>
+<td id="mess">error_ups_tower_base</td><td id="val">off  </td>
+<td id="mess">error_ups_topbox</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+</tr><tr>
+<td id="mess">warning_towerbase_ups_battery</td><td id="val">off  </td>
+<td id="mess">warning_topbox_UPS_battery</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>wind measurement</th></tr><tr>
+<td id="mess">error_wind_anemometer</td><td id="val">off  </td>
+<td id="mess">error_wind_wind_vane</td><td id="val">off  </td>
+<td id=mess>.</td><td id=val>.</td>
+</tr><tr>
+<td id="mess">error_wind_activepower_relation</td><td id="val"><FONT COLOR="#FF0000"><b>on</b></FONT>  </td>
+<td id="mess">error_wind_speed_gen_speed_relation</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">wind_speed</td><td id="val">7.59 m/s</td>
+<td id="mess">average_wind_speed_10s</td><td id="val">7.40 m/s</td>
+<td id="mess">average_wind_speed_30s</td><td id="val">7.12 m/s</td>
+</tr><tr>
+<td id="mess">wind_vane_wind_direction</td><td id="val">175.22 deg</td>
+<td id="mess">average_wind_vane_wind_direction_25s</td><td id="val">175.44 deg</td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>yaw</th></tr><tr>
+<td id="mess">error_yaw_position</td><td id="val">off  </td>
+<td id="mess">error_yaw_position_sensor</td><td id="val">off  </td>
+<td id="mess">error_yaw_speed</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_yaw_left_feedback</td><td id="val">off  </td>
+<td id="mess">error_yaw_right_feedback</td><td id="val">off  </td>
+<td id="mess">warning_yaw_lubrication</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_yaw_lubrication_feedback</td><td id="val">off  </td>
+<td id="mess">error_yaw_working_time</td><td id="val">off  </td>
+<td id="mess">error_yaw_position_lost</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">yaw_position</td><td id="val">-14.75 deg</td>
+<td id="mess">profi_in_yaw_position</td><td id="val">16288.00 inc</td>
+<td id="mess">yaw_speed</td><td id="val">0.01 deg/s</td>
+</tr><tr>
+<td id="mess">profi_out_yaw_move_right</td><td id="val">off  </td>
+<td id="mess">profi_out_yaw_move_left</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">profi_in_yaw_left_feedback</td><td id="val">off  </td>
+<td id="mess">profi_in_yaw_right_feedback</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">yaw_detwisting_necessary</td><td id="val">off  </td>
+<td id="mess">yaw_lubrication_possible</td><td id="val">off  </td>
+<td id="mess">yaw_lubrication_wanted</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">profi_out_lubrication_yaw_system_on</td><td id="val">off  </td>
+<td id="mess">yaw_deviation_wind_nacelle_position</td><td id="val">0.37 deg</td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">yaw_motor_working_hours</td><td id="val">673.17 h</td>
+<td id="mess">yaw_untwist_date</td><td id="val">150508  </td>
+<td id="mess">yaw_untwist_time</td><td id="val">2348  </td>
+</tr><tr>
+<td id="mess">yaw_lubrication_elapsed_hours</td><td id="val">16  </td>
+<td id="mess">yaw_lubrication_date</td><td id="val">150509  </td>
+<td id="mess">yaw_lubrication_time</td><td id="val">1903  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>converter</th></tr><tr>
+<tr><td colspan=6></td></tr>
+<tr><th colspan=6>converter signal</th></tr><tr>
+<td id="mess">error_converter_not_ready</td><td id="val">off  </td>
+<td id="mess">error_converter_shutdown_after_enable</td><td id="val">off  </td>
+<td id="mess">error_converter_main_contactor</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_converter_precharge_contactor</td><td id="val">off  </td>
+<td id="mess">error_converter_generator_contactor</td><td id="val">off  </td>
+<td id="mess">error_converter_enable_pulsing</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_contactor_filter_capacitor</td><td id="val">off  </td>
+<td id="mess">error_converter_monitoring_IGBT</td><td id="val">off  </td>
+<td id="mess">error_converter_IGBT_ok</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_converter_step_up_IGBT</td><td id="val">off  </td>
+<td id="mess">error_converter_chopper_IGBT</td><td id="val">off  </td>
+<td id="mess">error_converter_grid_IGBT</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_grid_monitoring_U_DC_positive</td><td id="val">off  </td>
+<td id="mess">error_conv_grid_monitoring_U_DC_negative</td><td id="val">off  </td>
+<td id="mess">error_converter_grid_monitoring_I_DC</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_grid_monitoring_chopper_I</td><td id="val">off  </td>
+<td id="mess">error_conv_grid_monitoring_step_up_U_DC_limits</td><td id="val">off  </td>
+<td id="mess">error_IGBT_fuse_feedback</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">converter_U_DC_positive</td><td id="val">568.08 V</td>
+<td id="mess">converter_U_DC_negative</td><td id="val">-569.79 V</td>
+<td id="mess">converter_I_DC</td><td id="val">725.12 A</td>
+</tr><tr>
+<td id="mess">converter_step_up_U_DC</td><td id="val">1055.50 V</td>
+<td id="mess">converter_chopper_I</td><td id="val">0.81 A</td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">error_conv_signal_DC_current_overcurrent</td><td id="val">off  </td>
+<td id="mess">error_conv_signal_IGBT_overcurrent_peak</td><td id="val">off  </td>
+<td id="mess">error_conv_signal_phase_voltage_peak</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_signal_chopper_overcurrent</td><td id="val">off  </td>
+<td id="mess">error_converter_signal_DC_link_min</td><td id="val">off  </td>
+<td id="mess">error_converter_signal_DC_link_max</td><td id="val">off  </td>
+</tr>
+
+<tr><th colspan=6>converter temperature</th></tr><tr>
+<td id="mess">error_conv_grid_L1a_igbt_temp</td><td id="val">off  </td>
+<td id="mess">error_conv_grid_L1b_igbt_temp</td><td id="val">off  </td>
+<td id="mess">error_conv_grid_L2a_igbt_temp</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_grid_L2b_igbt_temp</td><td id="val">off  </td>
+<td id="mess">error_conv_grid_L3a_igbt_temp</td><td id="val">off  </td>
+<td id="mess">error_conv_grid_L3b_igbt_temp</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_grid_igbt_temp_difference</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">error_conv_step_up_igbt_temp_1</td><td id="val">off  </td>
+<td id="mess">error_conv_step_up_igbt_temp_2</td><td id="val">off  </td>
+<td id="mess">error_conv_step_up_igbt_temp_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_step_up_igbt_temp_difference</td><td id="val">off  </td>
+<td id="mess">error_conv_chopper_igbt_temp</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">converter_grid_L1a_igbt_temperature</td><td id="val">37.04 C</td>
+<td id="mess">converter_grid_L1b_igbt_temperature</td><td id="val">36.06 C</td>
+<td id="mess">converter_grid_L2a_igbt_temperature</td><td id="val">34.84 C</td>
+</tr><tr>
+<td id="mess">converter_grid_L2b_igbt_temperature</td><td id="val">35.67 C</td>
+<td id="mess">converter_grid_L3a_igbt_temperature</td><td id="val">36.11 C</td>
+<td id="mess">converter_grid_L3b_igbt_temperature</td><td id="val">36.65 C</td>
+</tr><tr>
+<td id="mess">converter_step_up_igbt_temperature1</td><td id="val">30.30 C</td>
+<td id="mess">converter_step_up_igbt_temperature2</td><td id="val">30.99 C</td>
+<td id="mess">converter_step_up_igbt_temperature3</td><td id="val">31.96 C</td>
+</tr><tr>
+<td id="mess">converter_chopper_igbt_temperature</td><td id="val">26.93 C</td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr>
+<tr><th colspan=6>converter temperature periphery</th></tr><tr>
+<td id="mess">error_conv_temp_gen_capacitors_high</td><td id="val">off  </td>
+<td id="mess">error_conv_temp_DC_link_capacitor_high</td><td id="val">off  </td>
+<td id="mess">error_conv_temp_rectifier_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_temp_rectifier_low</td><td id="val">off  </td>
+<td id="mess">error_conv_temp_gen_capacitors_low</td><td id="val">off  </td>
+<td id="mess">error_conv_temp_DC_link_capacitor_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_conv_temp_DC_inductor</td><td id="val">off  </td>
+<td id="mess">error_conv_temp_AC_inductor</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">converter_gen_capacitors_temp</td><td id="val">31.70 C</td>
+<td id="mess">converter_DC_link_capacitor_temp</td><td id="val">35.70 C</td>
+<td id="mess">converter_rectifier_temperature</td><td id="val">24.80 C</td>
+</tr><tr>
+<td id="mess">converter_DC_inductor_temperature</td><td id="val">34.90 C</td>
+<td id="mess">converter_AC_inductor_temperature</td><td id="val">56.00 C</td>
+<td id="mess">converter_AC_inductor1_temperature</td><td id="val">48.50 C</td>
+</tr><tr>
+<td id="mess">converter_AC_inductor2_temperature</td><td id="val">56.00 C</td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</table>
+
+<TABLE><tr><th colspan=6>converter cooling</th></tr><tr>
+<td id="mess">error_IGBT_cooling_fan1_feedback</td><td id="val">off  </td>
+<td id="mess">error_IGBT_cooling_fan1_disable</td><td id="val">off  </td>
+<td id="mess">error_IGBT_cooling_fan2_feedback</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_IGBT_cooling_fan2_disable</td><td id="val">off  </td>
+<td id="mess">error_capacitor_cooling_fan_feedback</td><td id="val">off  </td>
+<td id="mess">error_capacitor_cooling_fan_disable</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_tower_cooling_fan_feedback</td><td id="val">off  </td>
+<td id="mess">error_tower_cooling_fan_disable</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">IGBT_cooling_fan1_speed_setpoint</td><td id="val">100.00 %</td>
+<td id="mess">IGBT_cooling_fan2_speed_setpoint</td><td id="val">100.00 %</td>
+<td id="mess">capacitor_cooling_fan_speed_setpoint</td><td id="val">0.00 %</td>
+</tr><tr>
+<td id="mess">tower_cooling_fan_speed_setpoint</td><td id="val">100.00 %</td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr></table>
+
+
+
+<TABLE><tr><th colspan=6>pitch</th></tr>
+
+
+<tr><td colspan=6></td></tr>
+<tr><th colspan=6>pitch safety system</th></tr>
+<tr>
+<td id="mess">error_pitchV_outside_safty_system_ok_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_outside_safty_system_ok_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_outside_safty_system_ok_3</td><td id="val">off  </td>
+</tr>
+<tr>
+<td id="mess">error_pitchV_choose_gear_ratio_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_choose_gear_ratio_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_choose_gear_ratio_3</td><td id="val">off  </td>
+</tr>
+<tr>
+<td id="mess">error_pitchV_min_position_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_min_position_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_min_position_3</td><td id="val">off  </td>
+</tr>
+
+<tr><td colspan=6></td></tr>
+<tr><th colspan=6>pitch converter</th></tr><tr>
+<td id="mess">error_pitchV_converter_ok_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_converter_ok_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_converter_ok_3</td><td id="val">off  </td>
+</tr>
+
+<tr><th colspan=6>pitch error code numbers</th>
+</tr><tr>
+<td id="mess">error_pitchV_error_code_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_error_code_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_error_code_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_code1_pitchbox1</td><td id="val">0  </td>
+<td id="mess">error_code1_pitchbox2</td><td id="val">0  </td>
+<td id="mess">error_code1_pitchbox3</td><td id="val">0  </td>
+</tr><tr>
+<td id="mess">error_code2_pitchbox1</td><td id="val">0  </td>
+<td id="mess">error_code2_pitchbox2</td><td id="val">0  </td>
+<td id="mess">error_code2_pitchbox3</td><td id="val">0  </td>
+</tr>
+
+<tr><th colspan=6>pitch position</th></tr><tr>
+<td id="mess">error_pitchV_position_range_sensor_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_position_range_sensor_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_position_range_sensor_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">pitchV_in_5_position_sensor_1</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">pitchV_in_5_position_sensor_2</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">pitchV_in_5_position_sensor_3</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+</tr><tr>
+<td id="mess">error_pitchV_87_position_sensor_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_87_position_sensor_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_87_position_sensor_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">pitchV_in_87_position_sensor_1</td><td id="val">off  </td>
+<td id="mess">pitchV_in_87_position_sensor_2</td><td id="val">off  </td>
+<td id="mess">pitchV_in_87_position_sensor_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_position_end_switch_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_position_end_switch_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_position_end_switch_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">pitchV_in_end_switch_1</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">pitchV_in_end_switch_2</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+<td id="mess">pitchV_in_end_switch_3</td><td id="val"><FONT COLOR="#00FF00"><b>on</b></FONT>  </td>
+</tr><tr>
+<td id="mess">error_pitchV_position_encoder_battery_low_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_position_encoder_battery_low_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_position_encoder_battery_low_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_position_blade_cmp</td><td id="val">off  </td>
+<td>.   </td><td>.   </td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">ptichV_blade_position_1</td><td id="val">1.74 deg</td>
+<td id="mess">ptichV_blade_position_2</td><td id="val">1.82 deg</td>
+<td id="mess">ptichV_blade_position_3</td><td id="val">1.73 deg</td>
+</tr>
+
+<tr><th colspan=6>pitch power supply</th></tr><tr>
+<td id="mess">error_pitchV_power_supply_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_power_supply_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_power_supply_3</td><td id="val">off  </td>
+</tr>
+
+
+<tr><th colspan=6>pitch speed</th></tr><tr>
+<td id="mess">error_pitchV_speed_cmp_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_speed_cmp_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_speed_cmp_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_speed_limit_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_speed_limit_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_speed_limit_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_speed_momentary_blade_1</td><td id="val">0.00 deg/s</td>
+<td id="mess">ptichV_speed_momentary_blade_2</td><td id="val">0.00 deg/s</td>
+<td id="mess">ptichV_speed_momentary_blade_3</td><td id="val">0.00 deg/s</td>
+</tr><tr>
+<td id="mess">pitchV_control_motor_speed_setpoint_1</td><td id="val">0.03 deg/s</td>
+<td id="mess">pitchV_control_motor_speed_setpoint_2</td><td id="val">0.00 deg/s</td>
+<td id="mess">pitchV_control_motor_speed_setpoint_3</td><td id="val">0.03 deg/s</td>
+</tr>
+
+<tr><th colspan=6>pitch temp</th></tr><tr>
+<td id="mess">error_pitchV_motor_temp_1_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_motor_temp_2_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_motor_temp_3_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_motor_temp_1_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_motor_temp_2_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_motor_temp_3_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_motor_temperature_1</td><td id="val">16.80 C</td>
+<td id="mess">ptichV_motor_temperature_2</td><td id="val">16.20 C</td>
+<td id="mess">ptichV_motor_temperature_3</td><td id="val">16.50 C</td>
+</tr><tr>
+<td id="mess">error_pitchV_capacitor_temp_1_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_temp_2_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_temp_3_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_capacitor_temp_1_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_temp_2_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_temp_3_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_capacitor_temperature_1</td><td id="val">18.60 C</td>
+<td id="mess">ptichV_capacitor_temperature_2</td><td id="val">19.70 C</td>
+<td id="mess">ptichV_capacitor_temperature_3</td><td id="val">17.80 C</td>
+</tr><tr>
+<td id="mess">error_pitchV_cabinet_temp_1_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_cabinet_temp_2_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_cabinet_temp_3_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_cabinet_temp_1_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_cabinet_temp_2_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_cabinet_temp_3_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_cabinet_temperature_1</td><td id="val">28.70 C</td>
+<td id="mess">ptichV_cabinet_temperature_2</td><td id="val">20.00 C</td>
+<td id="mess">ptichV_cabinet_temperature_3</td><td id="val">28.80 C</td>
+</tr><tr>
+<td id="mess">error_pitchV_converter_temp_1_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_converter_temp_2_high</td><td id="val">off  </td>
+<td id="mess">error_pitchV_converter_temp_3_high</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_converter_temp_1_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_converter_temp_2_low</td><td id="val">off  </td>
+<td id="mess">error_pitchV_converter_temp_3_low</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_converter_temperature_1</td><td id="val">17.40 C</td>
+<td id="mess">ptichV_converter_temperature_1</td><td id="val">17.40 C</td>
+<td id="mess">ptichV_converter_temperature_1</td><td id="val">17.40 C</td>
+</tr>
+
+<tr><th colspan=6>pitch voltages</th></tr><tr>
+<td id="mess">error_pitchV_capacitor_voltage_hi_1_max</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_voltage_hi_2_max</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_voltage_hi_3_max</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_capacitor_voltage_hi_1_min</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_voltage_hi_2_min</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_voltage_hi_3_min</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_pitchV_capacitor_voltage_unsymmetry_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_voltage_unsymmetry_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_capacitor_voltage_unsymmetry_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_capacitor_voltage_hi_1</td><td id="val">59.26 V</td>
+<td id="mess">ptichV_capacitor_voltage_hi_2</td><td id="val">59.97 V</td>
+<td id="mess">ptichV_capacitor_voltage_hi_3</td><td id="val">58.90 V</td>
+</tr><tr>
+<td id="mess">ptichV_capacitor_voltage_lo_1</td><td id="val">29.68 V</td>
+<td id="mess">ptichV_capacitor_voltage_lo_2</td><td id="val">29.83 V</td>
+<td id="mess">ptichV_capacitor_voltage_lo_3</td><td id="val">29.44 V</td>
+</tr>
+
+<tr><th colspan=6>pitch software version</th></tr><tr>
+<td id="mess">error_pitchV_software_version_1</td><td id="val">off  </td>
+<td id="mess">error_pitchV_software_version_2</td><td id="val">off  </td>
+<td id="mess">error_pitchV_software_version_3</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">ptichV_software_version_1</td><td id="val">21122.00  </td>
+<td id="mess">ptichV_software_version_2</td><td id="val">21122.00  </td>
+<td id="mess">ptichV_software_version_3</td><td id="val">21122.00  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>tower_base dew system</th></tr>
+<tr>
+<td id="mess">IGBT_cabinet_1_temperature</td><td id="val">0.00 C</td>
+<td id="mess">IGBT_cabinet_2_temperature</td><td id="val">0.00 C</td>
+<td>.   </td><td>.   </td>
+</tr><tr>
+<td id="mess">error_IGBT_cabinet_1_temperature</td><td id="val">off  </td>
+<td id="mess">error_IGBT_cabinet_2_temperature</td><td id="val">off  </td>
+<td id="mess">error_wind_cooling_system</td><td id="val">off  </td>
+</tr><tr>
+<td id="mess">error_tower_base_air_duct_heating_contactor_feedback</td><td id="val">off  </td>
+<td id="mess">error_tower_base_air_duct_heating_overtime</td><td id="val">off  </td>
+<td id="mess">warning_tower_base_air_duct_heating_feedback</td><td id="val">off  </td>
+</tr></table>
+
+<TABLE><tr><th colspan=6>main switch heating system</th></tr>
+<tr>
+<td id="mess">tower_base_main_switch_temperature</td><td id="val">0.00 C</td>
+<td id="mess">error_tower_base_main_switch_temp</td><td id="val">off  </td>
+<td id="mess">error_tower_base_main_switch_heating_overtime</td><td id="val">off  </td>
+</tr></table>
+
+</BODY>
+</HTML>
